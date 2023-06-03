@@ -1,0 +1,144 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+body {
+    background-color: #f0f2f5;
+}
+
+.container .logo {
+    height: 186px;
+    width: 301px;
+    float: left;
+    margin-top: 176px;
+    margin-left: 157px;
+    position: fixed;
+}
+
+.container p {
+    font-size: 28px;
+    line-height: 32px;
+    text-align: start;
+    letter-spacing: normal;
+    margin-top: 274px;
+    position: fixed;
+    margin-left: 185px;
+}
+
+/* ligin form */
+
+.container .login-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 358px;
+    width: 400px;
+    float: right;
+    margin-left: 765px;
+    margin-top: 132px;
+    margin-right: 200px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    BOX-SHADOW: rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(0, 0, 0, 0.1) 0px 8px 16px 0px
+}
+
+.container .login-form form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    margin-bottom: 20px;   
+    /* padding-top: 36px;
+    margin-top: 10px;
+    margin-bottom: 10px; */
+}
+
+input[type=email],
+input[type=password] {
+
+    /* width: 100%;
+    padding: 12px 28px;
+    padding-left: 10px;
+    margin: 8px 0; */
+    height: 30px;
+    width: 349px;
+    padding: 10px;
+    font-size: 17px;
+    border-radius: 6px;
+    margin: 8px;
+    /* box-sizing: border-box; */
+    border: 1px solid rgb(224, 219, 219);
+
+}
+
+input[type=email],
+input[type=password]:hover {
+    border: 1px solid #1877f2;
+}
+
+.btn1 {
+    background-color: #1877f2;
+    font-size: 20px;
+    color: white;
+    padding: 12px;
+    border-radius: 6px;
+    margin: 8px;
+    border: none;
+    font-weight: bold;
+}
+
+.btn2 {
+    background-color: #42b72a;
+    color: #ffffff;
+    font-size: 17px;
+    padding: 14.5px;
+    border-radius: 6px;
+    border: none;
+    margin: 80px 100px 0px;
+}
+
+.container .login-form .inside {
+    
+    text-align: center;
+    margin: inherit;
+    margin-top: 120px;
+    margin-left: 115px;
+}
+
+.container .login-form .inside a {
+    text-decoration: none;
+    font-size: 14px;
+    color: #1877f2;
+}
+
+.container .login-form .divider {
+    border-top: 1px solid #000000;
+    width: 370px;
+    margin: inherit;
+    margin-left: 8px;
+    margin-top: 180px;
+    position: absolute;
+    border-color: rgb(224, 219, 219);
+}
+
+.container .login-form p {
+    /* font-size: 14px;
+    color: #1c1e21;
+    text-decoration: none;
+    margin: inherit; */
+    position: absolute;
+    margin-top: 438px;
+    margin-right: 170px;
+    font-size: 14px;
+    color: #1c1e21;
+}
+
+.container .login-form p a {
+    color: #1c1e21;
+    font-weight: bold;
+    text-decoration: none;
+    position:relative;
+    margin: 4px;
+}
